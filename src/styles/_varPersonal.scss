@@ -1,0 +1,88 @@
+// Estilos para el botón oscuro
+.btn-dark {
+  background-color: $btn-dark-bg;
+  border: 1px solid $btn-dark-border;
+  color: $btn-dark-text;
+  transition: $btn-transition;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-dark-hover-bg;
+  }
+}
+
+// Estilos para el botón claro
+.btn-light {
+  background-color: $btn-light-bg;
+  border: 1px solid $btn-light-border;
+  color: $btn-light-text;
+  transition: $btn-transition;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-light-hover-bg;
+  }
+}
+
+
+
+
+// Estilos para el icono oscuro
+.icon-dark {
+  color: $icon-dark-color;
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: $icon-dark-hover-color;
+  }
+}
+
+// Estilos para el icono claro
+.icon-light {
+  color: $icon-light-color;
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: $icon-light-hover-color;
+  }
+}
+
+
+
+
+// Estilos para la tarjeta oscura
+.card-dark {
+  background-color: $card-dark-bg;
+  border: 1px solid $card-dark-border;
+  color: $card-dark-text;
+
+  .card-title,
+  .card-text {
+    color: inherit; // Para asegurarnos de que heredan el color de la tarjeta
+  }
+
+  i {
+    color: $light; // Establece el color del icono para la tarjeta oscura
+  }
+}
+
+// Estilos para la tarjeta clara
+.card-light {
+  background-color: $card-light-bg;
+  border: 1px solid $card-light-border;
+  color: $card-light-text;
+
+  .card-title,
+  .card-text {
+    color: inherit; // Para asegurarnos de que heredan el color de la tarjeta
+  }
+
+  i {
+    color: $dark; // Establece el color del icono para la tarjeta clara
+  }
+}
+
+
+

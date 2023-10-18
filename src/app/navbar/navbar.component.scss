@@ -1,0 +1,35 @@
+// Asegurando que la barra de navegación tenga un fondo negro y letras blancas
+@import 'src/styles/variables';
+
+
+
+  .navbar-brand {
+    color: $dark-text;
+    margin-right: $spacer;
+
+    img {
+      margin-right: 0.5rem;
+      width: 35px; // Un poco más grande
+      height: auto;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: $dark-text;
+
+    .navbar-toggler-icon {
+      background-color: $dark-text;
+    }
+  }
+
+  .navbar-nav .nav-link {
+    color: $dark-text;
+    transition: color 0.3s ease-in-out;
+
+    &:hover,
+    &.active {
+      color: $burnt-orange;
+    }
+  }
+
+

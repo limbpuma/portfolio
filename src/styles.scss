@@ -1,1 +1,132 @@
-/* You can add global styles to this file, and also import other style files */
+// Importación de las variables
+@import './styles/variables'; 
+
+// Estilos globales
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    background-color: $dark-blue;
+    color: $dark-text;
+    line-height: $line-height-base;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    margin: 0 0 $spacer;
+}
+
+// Navegación
+nav {
+  background-color: darken($primary, 10%);
+  a {
+    color: $dark-text;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $burnt-orange;
+    }
+  }
+}
+
+// Cabecera
+header {
+  background-color: $primary;
+  color: $dark-text;
+  padding: $spacer * 2;
+}
+
+// Títulos de sección
+.section-title {
+  font-size: 2rem;
+  color: $headings-color-dark;
+  margin-bottom: $spacer;
+  text-align: center;
+}
+
+// Textos de sección
+.section-text {
+  font-size: 1.2rem;
+  color: $soft-grey;
+  text-align: center;
+  margin-bottom: $spacer * 2;
+}
+
+// Tarjetas
+.card {
+  background-color: $card-dark-bg;
+  color: $card-dark-text;
+  border-radius: $card-border-radius;
+  box-shadow: $card-shadow;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba($black, 0.2);  
+  }
+
+  .card-title {
+    letter-spacing: 0.05em;
+  }
+}
+
+// Botones
+.btn-dark, .btn-light {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+
+  &:hover, &:focus {
+    color: $white;
+  }
+}
+
+// Iconos
+.projects-section .fa, .fas, .fab {
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $burnt-orange;
+  }
+}
+
+// Pie de página
+footer {
+  background-color: darken($primary, 15%);
+  color: $soft-grey;
+  padding: $spacer;
+  a {
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+      color: $burnt-orange;
+    }
+  }
+}
+
+// Márgenes para secciones específicas
+.card-section,
+.aboutme-section,
+.projects-section,
+.contact-section,
+.cv-download-section {
+  margin: $section-margin auto;
+  text-align: center;
+}
+
+// Media queries
+@media (max-width: 768px) {
+  header, footer {
+    padding: $spacer;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-text {
+    font-size: 1rem;
+  }
+}

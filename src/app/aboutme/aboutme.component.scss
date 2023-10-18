@@ -1,0 +1,70 @@
+@import './src/styles/_variables.scss';
+
+// Cambiar el color de fondo del botón del acordeón cuando está activo, en foco, o cuando el contenido asociado está expandido
+.accordion-button:not(.collapsed) {
+    background-color: $dark-blue;
+    color: $white; // Ajusta el color del texto si es necesario
+}
+// Cambiar el color de fondo del botón del acordeón cuando está activo, en foco, o expandido
+.accordion-button:focus, .accordion-button.active, .accordion-button:not(.collapsed) {
+    background-color: $dark-blue;
+    color: $white;
+}
+
+
+
+// === ESTILOS BASE DEL COMPONENTE ===
+.aboutme-section {
+  background-color: $soft-grey;
+  padding: $spacer * 2;
+  border-radius: $card-border-radius;
+  box-shadow: $card-shadow;
+  margin-bottom: $spacer * 3;
+}
+
+.section-title {
+  color: $dark-blue;
+  margin-bottom: $spacer;
+}
+
+.section-text {
+  color: darken($soft-grey, 30%);
+  margin-bottom: $spacer * 2;
+}
+
+// === ESTILOS PARA EL ACORDEÓN ===
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+// === ESTILOS RESPONSIVOS ===
+@media (min-width: 768px) {
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .flex-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .img-container {
+    margin-bottom: $spacer;
+  }
+
+  .flex-img {
+    border-radius: $card-border-radius;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

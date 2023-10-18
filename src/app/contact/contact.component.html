@@ -1,0 +1,68 @@
+<div class="contact">
+  <div class="title-component text-center">
+    <h3 class="section-title">Texto</h3>
+    <p class="section-text">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit
+    </p>
+  </div>
+
+  <div class="container-fluid g-5">
+    <!-- Formulario -->
+    <form>
+      <div class="row">
+        <!-- Campo Nombre -->
+        <div class="col-md-6 mb-3">
+          <label for="nameInput" class="form-label">Nombre</label>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              id="nameInput"
+              placeholder="Juan Pérez"
+            />
+            <!-- Íconos de Redes Sociales junto al campo Nombre -->
+            <span class="input-group-text">
+              <a
+                href="https://www.linkedin.com/in/tu_usuario/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="me-2"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/tu_usuario"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+
+        <!-- Campo Correo Electrónico -->
+        <div class="col-md-6 mb-3">
+          <label for="emailInput" class="form-label">Correo Electrónico</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailInput"
+            placeholder="nombre@ejemplo.com"
+          />
+        </div>
+      </div>
+
+      <!-- Área de Texto para el Mensaje -->
+      <div class="mb-3">
+        <label for="messageTextarea" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+      </div>
+
+      <!-- Botón Enviar -->
+      <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-dark">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>
