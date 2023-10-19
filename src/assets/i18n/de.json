@@ -1,0 +1,66 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "aboutMe": "Über mich",
+    "projects": "Projekte",
+    "language": "Sprache",
+    "english": "Englisch",
+    "spanish": "Spanisch",
+    "german": "Deutsch"
+  },
+  "header": {
+    "title": "Ihr Titel hier",
+    "description": "Beschreibung oder Einführungstext hier.",
+    "cta": "Hier klicken"
+  },
+  "cardsTitle": "Über mich",
+  "cardsDescription": "Eine kurze Information über Sie.",
+  "cards": [
+    {"title": "Karte 1", "description": "Beschreibung 1"},
+    {"title": "Karte 2", "description": "Beschreibung 2"},
+    {"title": "Karte 3", "description": "Beschreibung 3"},
+    {"title": "Karte 4", "description": "Beschreibung 4"},
+    {"title": "Karte 5", "description": "Beschreibung 5"},
+    {"title": "Karte 6", "description": "Beschreibung 6"}
+  ],
+  "aboutMeTitle": "Über mich",
+  "aboutMeDescription": "Eine kurze Information über Sie.",
+  "accordion1": {
+    "title": "Titel 1",
+    "content": "Inhalt 1"
+  },
+  "accordion2": {
+    "title": "Titel 2",
+    "content": "Inhalt 2"
+  },
+  "accordion3": {
+    "title": "Titel 3",
+    "content": "Inhalt 3"
+  },
+  "cvPrompt": "Meinen Lebenslauf herunterladen",
+  "cvCta": "Lebenslauf herunterladen",
+
+  
+  "projectsTitle": "Projekte",
+  "projectsDescription": "Beschreibung verschiedener Projekte.",
+  "projects": [
+    {"title": "Projekt 1", "description": "Beschreibung 1"},
+    {"title": "Projekt 2", "description": "Beschreibung 2"},
+    {"title": "Projekt 3", "description": "Beschreibung 3"},
+    {"title": "Projekt 4", "description": "Beschreibung 4"},
+    {"title": "Projekt 5", "description": "Beschreibung 5"},
+    {"title": "Projekt 6", "description": "Beschreibung 6"}
+  ],
+  "contactTitle": "Kontaktieren Sie mich",
+  "contactPrompt": "Kommen Sie in Kontakt!",
+  "contactName": "Name",
+  "contactEmail": "E-Mail",
+  "contactMessage": "Nachricht",
+  "contactNamePlaceholder": "Ihr Name",
+  "contactEmailPlaceholder": "ihre.email@example.de",
+  "contactMessagePlaceholder": "Ihre Nachricht hier",
+  "contactCta": "Nachricht senden",
+  "footerThanks": "Vielen Dank für Ihren Besuch!",
+  "footerCredit": "Ihr Name - Entwickler",
+  "footerCopyright": "Alle Rechte vorbehalten © 2023"
+}
