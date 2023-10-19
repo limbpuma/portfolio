@@ -1,0 +1,64 @@
+{
+  "navbar": {
+    "home": "Home",
+    "aboutMe": "About Me",
+    "projects": "Projects",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Spanish",
+    "german": "German"
+  },
+  "header": {
+    "title": "Your Title Here",
+    "description": "Description or introductory text here.",
+    "cta": "Click Here"
+  },
+  "cardsTitle": "About Me",
+  "cardsDescription": "A brief about you.",
+  "cards": [
+    {"title": "Card 1", "description": "Description 1"},
+    {"title": "Card 2", "description": "Description 2"},
+    {"title": "Card 3", "description": "Description 3"},
+    {"title": "Card 4", "description": "Description 4"},
+    {"title": "Card 5", "description": "Description 5"},
+    {"title": "Card 6", "description": "Description 6"}
+  ],
+  "aboutMeTitle": "About Me",
+  "aboutMeDescription": "A brief about you.",
+  "accordion1": {
+    "title": "Title 1",
+    "content": "Content 1"
+  },
+  "accordion2": {
+    "title": "Title 2",
+    "content": "Content 2"
+  },
+  "accordion3": {
+    "title": "Title 3",
+    "content": "Content 3"
+  },
+  "cvPrompt": "Download My Curriculum Vitae",
+  "cvCta": "Download CV",
+  "projectsTitle": "Projects",
+  "projectsDescription": "Description of various projects.",
+  "projects": [
+    {"title": "Project 1", "description": "Description 1"},
+    {"title": "Project 2", "description": "Description 2"},
+    {"title": "Project 3", "description": "Description 3"},
+    {"title": "Project 4", "description": "Description 4"},
+    {"title": "Project 5", "description": "Description 5"},
+    {"title": "Project 6", "description": "Description 6"}
+  ],
+  "contactTitle": "Contact Me",
+  "contactPrompt": "Get in touch!",
+  "contactName": "Name",
+  "contactEmail": "Email",
+  "contactMessage": "Message",
+  "contactNamePlaceholder": "Your Name",
+  "contactEmailPlaceholder": "your.email@example.com",
+  "contactMessagePlaceholder": "Your message here",
+  "contactCta": "Send Message",
+  "footerThanks": "Thank you for visiting!",
+  "footerCredit": "Your Name - Developer",
+  "footerCopyright": "All rights reserved © 2023"
+}
