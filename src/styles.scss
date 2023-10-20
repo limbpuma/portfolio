@@ -41,20 +41,37 @@ header {
 }
 
 // Títulos de sección
+// Modificaciones para .card-section y .projects-section
+.card-section, .projects-section {
+  background-color: $dark-blue;  // Fondo oscuro
+  
+  .section-title, .section-text {
+    color: $white;  // Texto claro
+  }
+}
+
+// Modificaciones para .aboutme-section y .contact
+.aboutme-section, .contact {
+  background-color: $white;  // Fondo claro
+  
+  .section-title, .section-text {
+    color: $dark-blue;  // Texto oscuro
+  }
+}
+
+// Ajustes generales para .section-title y .section-text
 .section-title {
   font-size: 2rem;
-  color: $headings-color-dark;
   margin-bottom: $spacer;
   text-align: center;
 }
 
-// Textos de sección
 .section-text {
   font-size: 1.2rem;
-  color: $soft-grey;
   text-align: center;
   margin-bottom: $spacer * 2;
 }
+
 
 // Tarjetas
 .card {
@@ -85,15 +102,19 @@ header {
 
 // Iconos
 .projects-section .fa, .fas, .fab {
+  color: $black;
   transition: color 0.3s ease;
 
   &:hover {
     color: $burnt-orange;
   }
+
+
 }
 
 // Pie de página
 footer {
+  margin-top: $section-margin;
   background-color: darken($primary, 15%);
   color: $soft-grey;
   padding: $spacer;
@@ -115,6 +136,63 @@ footer {
   margin: $section-margin auto;
   text-align: center;
 }
+
+// Contacto
+
+.contact {
+  background-color: $soft-grey;  // Añadir un fondo claro para contrastar con el tema oscuro.
+  padding: $spacer * 3 0;
+  border-radius: $card-border-radius;
+  box-shadow: $card-shadow;
+
+
+  form {
+    // Agregamos espacio para evitar que los elementos estén demasiado pegados.
+    padding: $spacer * 2;
+    background: $white;  // Fondo blanco para el formulario para mejor legibilidad.
+    border-radius: $card-border-radius;
+
+    label {
+      color: $dark-blue;
+      font-weight: $font-weight-bold;
+    }
+
+    .input-group-text {
+      background: transparent;
+      border-left: none;
+
+      a {
+        color: $icon-dark-blue-color;
+
+        &:hover {
+          color: $icon-dark-blue-hover;
+        }
+      }
+    }
+
+    .form-control {
+      border-color: $tertiary;
+
+      &:focus {
+        border-color: $burnt-orange;
+        box-shadow: 0 0 0 0.2rem rgba($burnt-orange, 0.25);
+      }
+    }
+
+    button.btn {
+      background-color: $dark-blue;
+      color: $white;
+      border: none;
+
+      &:hover {
+        background-color: lighten($dark-blue, 10%);
+      }
+    }
+  }
+}
+
+
+
 
 // Media queries
 @media (max-width: 768px) {

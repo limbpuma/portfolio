@@ -60,6 +60,9 @@
   "contactEmailPlaceholder": "ihre.email@example.de",
   "contactMessagePlaceholder": "Ihre Nachricht hier",
   "contactCta": "Nachricht senden",
+  "contactSend": "gesendet!",
+
+
   "footerThanks": "Vielen Dank für Ihren Besuch!",
   "footerCredit": "Ihr Name - Entwickler",
   "footerCopyright": "Alle Rechte vorbehalten © 2023"

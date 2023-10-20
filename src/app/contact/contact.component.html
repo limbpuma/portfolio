@@ -8,17 +8,23 @@
 
   <div class="container-fluid g-5">
     <!-- Formulario -->
-    <form>
+    <form
+      (ngSubmit)="onSubmit({ Name: name, EmailAddress: email, Body: body })"
+    >
       <div class="row">
         <!-- Campo Nombre -->
         <div class="col-md-6 mb-3">
-          <label for="nameInput" class="form-label">Nombre</label>
+          <label
+            for="nameInput"
+            class="form-label"
+            translate="contactName"
+          ></label>
           <div class="input-group">
             <input
               type="text"
               class="form-control"
               id="nameInput"
-              placeholder="Juan Pérez"
+              placeholder="contact name"
             />
             <!-- Íconos de Redes Sociales junto al campo Nombre -->
             <span class="input-group-text">
@@ -43,25 +49,59 @@
 
         <!-- Campo Correo Electrónico -->
         <div class="col-md-6 mb-3">
-          <label for="emailInput" class="form-label">Correo Electrónico</label>
+          <label
+            for="emailInput"
+            class="form-label"
+            translate="contactEmail"
+          ></label>
           <input
             type="email"
             class="form-control"
             id="emailInput"
-            placeholder="nombre@ejemplo.com"
+            placeholder="name@example.com"
+            [(ngModel)]="email"
+            name="email"
+            required
           />
         </div>
       </div>
 
       <!-- Área de Texto para el Mensaje -->
       <div class="mb-3">
-        <label for="messageTextarea" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+        <label
+          for="messageTextarea"
+          class="form-label"
+          translate="contactMessage"
+        ></label>
+        <textarea
+          class="form-control"
+          id="messageTextarea"
+          rows="3"
+          [(ngModel)]="body"
+          name="body"
+          required
+        >
+        </textarea>
       </div>
 
       <!-- Botón Enviar -->
       <div class="d-flex justify-content-center">
-        <button type="submit" class="btn btn-dark">Enviar</button>
+        <button
+          type="submit"
+          class="btn btn-dark"
+          translate="contactCta"
+        ></button>
+      </div>
+      <div *ngIf="emailSent" class="d-flex justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+          <div
+            class="alert alert-success d-flex align-items-center my-2"
+            role="alert"
+          >
+            <i class="fas fa-check-circle me-1"></i>
+            <span translate="contactSend"></span>
+          </div>
+        </div>
       </div>
     </form>
   </div>

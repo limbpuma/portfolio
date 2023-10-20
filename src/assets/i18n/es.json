@@ -58,6 +58,9 @@
   "contactEmailPlaceholder": "tu.email@example.com",
   "contactMessagePlaceholder": "Tu mensaje aquí",
   "contactCta": "Enviar Mensaje",
+  "contactSend": "enviado! 🚀",
+
+
   "footerThanks": "¡Gracias por visitar!",
   "footerCredit": "Tu Nombre - Desarrollador",
   "footerCopyright": "Todos los derechos reservados © 2023"
