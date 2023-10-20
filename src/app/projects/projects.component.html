@@ -9,7 +9,7 @@
   </div>
 
   <div class="align-items-center row row-cols-1 row-cols-md-3 g-5 mx-auto">
-    <div class="col" *ngFor="let project of projects">
+    <div class="col" *ngFor="let project of combinedProjects">
       <div class="card">
         <div class="position-relative">
           <img
@@ -18,16 +18,18 @@
             alt="..."
           />
           <a
-            href="https://www.github.com"
+            [href]="project.githubRepoLink"
             class="text-decoration-none position-absolute top-25 end-0 m-3"
+            target="_blank"
           >
-            <i class="fab fa-github fa-2x d-flex flex-column"></i>
+            <i class="fab fa-github fa-2x mx-2"></i>
           </a>
           <a
-            href="https://www.github.com/1"
+            [href]="project.liveDemoLink"
             class="text-decoration-none position-absolute top-50 end-0 m-3"
+            target="_blank"
           >
-            <i class="fab fa-github fa-2x"></i>
+            <i class="fab fa-github fa-2x mx-2"></i>
           </a>
         </div>
         <div class="card-body">

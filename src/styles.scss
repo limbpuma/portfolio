@@ -101,6 +101,18 @@ header {
 }
 
 // Iconos
+.card-section i {
+  transition: color 0.3s ease;
+  color: white;
+
+  &:hover {
+    color: $burnt-orange;
+  }
+
+
+}
+
+
 .projects-section .fa, .fas, .fab {
   color: $black;
   transition: color 0.3s ease;
@@ -174,8 +186,8 @@ footer {
       border-color: $tertiary;
 
       &:focus {
-        border-color: $burnt-orange;
-        box-shadow: 0 0 0 0.2rem rgba($burnt-orange, 0.25);
+        border-color: $dark-blue;
+        box-shadow: 0 0 0 0.2rem rgba($dark-blue, 0.25);
       }
     }
 
@@ -190,6 +202,8 @@ footer {
     }
   }
 }
+
+
 
 
 

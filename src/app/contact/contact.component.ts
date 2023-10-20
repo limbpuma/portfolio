@@ -1,5 +1,7 @@
 import { Component, } from '@angular/core';
 import * as emailjs from 'emailjs-com';
+import { PERSONAL_LINKS } from '../projects-data.service';
+
 
 emailjs.init("W2uVMjlR6dxvYWNzU");  // Reemplaza YOUR_USER_ID con tu ID de usuario de EmailJS
 
@@ -42,5 +44,12 @@ onSubmit(data: any) {
     this.name = '';
     this.email = '';
     this.body = '';
+  }
+
+   githubLink = PERSONAL_LINKS.github;
+  linkedinLink = PERSONAL_LINKS.linkedin;
+
+  ngOnInit(): void {
+    // aquí puedes colocar lógica de inicialización si es necesario
   }
 }

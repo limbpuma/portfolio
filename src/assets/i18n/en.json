@@ -41,7 +41,7 @@
   "cvCta": "Download CV",
   "projectsTitle": "Projects",
   "projectsDescription": "Description of various projects.",
-  "projects": [
+  "project": [
     {"title": "Project 1", "description": "Description 1"},
     {"title": "Project 2", "description": "Description 2"},
     {"title": "Project 3", "description": "Description 3"},
@@ -58,10 +58,10 @@
   "contactEmailPlaceholder": "your.email@example.com",
   "contactMessagePlaceholder": "Your message here",
   "contactCta": "Send Message",
-  "contactSend": "sent! 🚀",
 
 
   "footerThanks": "Thank you for visiting!",
-  "footerCredit": "Your Name - Developer",
-  "footerCopyright": "All rights reserved © 2023"
+  "footerCopyright": "All rights reserved",
+  "footerMake": "Hecho con",
+  "footerMake2": "usando"
 }

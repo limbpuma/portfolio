@@ -61,7 +61,10 @@
   "contactSend": "enviado! 🚀",
 
 
-  "footerThanks": "¡Gracias por visitar!",
-  "footerCredit": "Tu Nombre - Desarrollador",
-  "footerCopyright": "Todos los derechos reservados © 2023"
+   "footerThanks": "Thank you for visiting!",
+  
+  "footerCopyright": "All rights reserved",
+  "footerMake": "Hecho con",
+  "footerMake2": "usando"
+
 }

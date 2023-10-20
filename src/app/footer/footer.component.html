@@ -4,26 +4,34 @@
     <div class="row">
       <!-- Sección de derechos reservados y agradecimiento -->
       <div class="col-md-6">
-        <p>&copy; 2023 | Gracias por su visita</p>
-        <p>Limber Martinez - Developer Jr</p>
+        <div class="d-flex mx-auto text-center justify-content-center">
+          <p>&copy; 2023 |</p>
+          <p class="mx-1" translate="footerThanks"></p>
+        </div>
+        <p>
+          Limber Martinez - Developer Jr
+          <i class="fas fa-code text-primary mx-1"></i>
+        </p>
       </div>
 
       <!-- Sección de enlaces e íconos -->
       <div class="col-md-6 text-md-right text-center">
         <!-- Íconos de redes sociales -->
-        <a href="tu_enlace_de_linkedin" target="_blank" class="text-white mx-2">
+        <a [href]="linkedinLink" target="_blank" class="text-white mx-2">
           <i class="fab fa-linkedin fa-lg"></i>
         </a>
-        <a href="tu_enlace_de_github" target="_blank" class="text-white mx-2">
+        <a [href]="githubLink" target="_blank" class="text-white mx-2">
           <i class="fab fa-github fa-lg"></i>
         </a>
 
         <!-- Mensaje "Hecho con" y tecnologías -->
         <p class="mt-2">
-          Hecho con
-          <i class="fas fa-heart text-danger"></i> usando
-          <i class="fab fa-angular text-red"></i> &
-          <i class="fab fa-bootstrap text-primary"></i>
+          <span translate="footerMake"></span>
+          <i class="fas fa-heart text-danger mx-1"></i>
+          <span translate="footerMake2"></span>
+          <i class="fab fa-angular text-red mx-1"></i>&<i
+            class="fab fa-bootstrap text-primary mx-1"
+          ></i>
         </p>
       </div>
     </div>
