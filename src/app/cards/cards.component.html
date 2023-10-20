@@ -7,7 +7,7 @@
     </p>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid" [@scrollFadeIn]="animationState">
     <div class="row g-4">
       <!-- Usamos *ngFor para renderizar cada tarjeta basada en el arreglo cards en el JSON -->
       <div class="col-12 col-sm-6 col-md-4" *ngFor="let card of cards">
