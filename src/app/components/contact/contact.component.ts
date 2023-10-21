@@ -1,6 +1,6 @@
 import { Component, } from '@angular/core';
 import * as emailjs from 'emailjs-com';
-import { PERSONAL_LINKS } from '../projects-data.service';
+import { PERSONAL_LINKS } from 'src/app/Services/static-data-service.service';
 
 
 emailjs.init("W2uVMjlR6dxvYWNzU");  // Reemplaza YOUR_USER_ID con tu ID de usuario de EmailJS

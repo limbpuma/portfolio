@@ -1,0 +1,30 @@
+<section class="container card-section bg-dark-theme">
+  <div class="title-component text-center">
+    <h3 class="section-title">{{ "cardsTitle" | translate }}</h3>
+    <p class="section-text">
+      {{ "cardsDescription" | translate }}
+    </p>
+  </div>
+  <div class="row g-4" [@scrollFadeInOut]="animationState">
+    <!-- Usamos *ngFor para renderizar cada tarjeta basada en el arreglo cards en el JSON -->
+    <div
+      class="col-12 col-sm-6 col-md-4"
+      *ngFor="let card of cards; let i = index"
+    >
+      <div class="card">
+        <div class="card-body text-center">
+          <i
+            [class]="iconsData[i].class"
+            [ariaLabel]="iconsData[i].ariaLabel"
+          ></i>
+          <h5 class="card-title mt-3 text-dark-text">
+            {{ card.title | translate }}
+          </h5>
+          <p class="card-text text-dark-text">
+            {{ card.description | translate }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

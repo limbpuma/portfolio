@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-aboutme',
   templateUrl: './aboutme.component.html',
@@ -11,5 +10,15 @@ import { Component } from '@angular/core';
 
 
 export class AboutmeComponent {
+
+
+   
+
+
+    
+  
+
+
+    
 
 }

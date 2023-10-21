@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PERSONAL_LINKS } from '../projects-data.service';
+import { PERSONAL_LINKS } from 'src/app/Services/static-data-service.service';
 
 
 

@@ -9,23 +9,23 @@ import {
 
 // Scroll Fade In
 export const scrollFadeIn = trigger('scrollFadeIn', [
-  state('hidden', style({ opacity: 0.4 })),
+  state('hidden', style({ opacity: 0 })),
   state('visible', style({ opacity: 1 })),
-  transition('hidden <=> visible', animate('2000ms ease-in-out'))
+  transition('hidden <=> visible', animate('1000ms ease-in-out'))
 ]);
 
 // Scroll Fade In Out
 export const scrollFadeInOut = trigger('scrollFadeInOut', [
-  state('hidden', style({ opacity: 0 })),
+  state('hidden', style({ opacity: 0.5 })),
   state('visible', style({ opacity: 1 })),
-  transition('hidden <=> visible', animate('600ms ease-in-out'))
+  transition('hidden <=> visible', animate('900ms ease-in-out'))
 ]);
 
 // Scroll Slide In Left
 export const scrollSlideInLeft = trigger('scrollSlideInLeft', [
-  state('hidden', style({ transform: 'translateX(-100%)', opacity: 0 })),
+  state('hidden', style({ transform: 'translateX(-100%)', opacity: 0.5 })),
   state('visible', style({ transform: 'translateX(0)', opacity: 1 })),
-  transition('hidden <=> visible', animate('600ms ease-in-out'))
+  transition('hidden <=> visible', animate('1000ms ease-in-out'))
 ]);
 
 // Scroll Slide In Right
@@ -53,11 +53,11 @@ export const scrollRotateZoomIn = trigger('scrollRotateZoomIn', [
 // Esta animación hace que el elemento aparezca rebotando ligeramente antes de asentarse en su posición final. Inicia escalándose a la mitad, crece un poco más de su tamaño normal, y finalmente se asienta en su tamaño original.
 
 export const scrollBounce = trigger('scrollBounce', [
-  state('hidden', style({ transform: 'scale(0)', opacity: 0 })),
+  state('hidden', style({ transform: 'scale(0)', opacity: 0.7 })),
   state('visible', style({ transform: 'scale(1)', opacity: 1 })),
-  transition('hidden <=> visible', animate('600ms', keyframes([
-    style({ transform: 'scale(0.5)', offset: 0.5 }),
-    style({ transform: 'scale(1.05)', offset: 0.75 }),
+  transition('hidden <=> visible', animate('1000ms', keyframes([
+    style({ transform: 'scale(0.7)', offset: 0.5 }),
+    style({ transform: 'scale(1.20)', offset: 0.75 }),
     style({ transform: 'scale(1)', offset: 1.0 }),
   ])))
 ]);
@@ -75,10 +75,10 @@ export const scrollFlip = trigger('scrollFlip', [
 // El elemento da un pequeño "latido" o "pulsación" al aparecer, creciendo ligeramente más de su tamaño original y luego volviendo a su tamaño normal.
 
 export const scrollPulse = trigger('scrollPulse', [
-  state('hidden', style({ transform: 'scale(0)', opacity: 0 })),
+  state('visible', style({ transform: 'scale(0)', opacity: 0.6 })),
   state('visible', style({ transform: 'scale(1)', opacity: 1 })),
-  transition('hidden <=> visible', animate('600ms', keyframes([
-    style({ transform: 'scale(1.05)', offset: 0.5 }),
+  transition('hidden <=> visible', animate('2000ms', keyframes([
+    style({ transform: 'scale(1.05)', offset: 0.7 }),
     style({ transform: 'scale(1)', offset: 1.0 }),
   ])))
 ]);
@@ -87,9 +87,9 @@ export const scrollPulse = trigger('scrollPulse', [
 // El elemento oscila o "se balancea" desde un ángulo negativo a un ángulo positivo y finalmente se estabiliza en su posición inicial, simulando un efecto de péndulo.
 
 export const scrollSwing = trigger('scrollSwing', [
-  state('hidden', style({ transform: 'rotate(-15deg)', opacity: 0 })),
+  state('hidden', style({ transform: 'rotate(-15deg)', opacity: 0.7 })),
   state('visible', style({ transform: 'rotate(0)', opacity: 1 })),
-  transition('hidden <=> visible', animate('600ms', keyframes([
+  transition('hidden <=> visible', animate('1000ms', keyframes([
     style({ transform: 'rotate(15deg)', offset: 0.25 }),
     style({ transform: 'rotate(-10deg)', offset: 0.5 }),
     style({ transform: 'rotate(5deg)', offset: 0.75 }),

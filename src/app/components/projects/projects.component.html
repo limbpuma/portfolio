@@ -12,11 +12,7 @@
     <div class="col" *ngFor="let project of combinedProjects">
       <div class="card">
         <div class="position-relative">
-          <img
-            src="https://images.unsplash.com/photo-1696958363946-b58f40cda426?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1228&q=80"
-            class="card-img-top"
-            alt="..."
-          />
+          <img [src]="project.img" class="card-img-top" alt="..." />
           <a
             [href]="project.githubRepoLink"
             class="text-decoration-none position-absolute top-25 end-0 m-3"
@@ -36,13 +32,12 @@
           <h5 class="card-title">{{ project.title | translate }}</h5>
           <p class="card-text">{{ project.description | translate }}</p>
         </div>
-        <ul class="list-group list-group-flush text-center">
-          <li class="list-group-item">
-            <i class="fab fa-html5 fa-2x mx-2"></i>
-            <i class="fab fa-css3-alt fa-2x mx-2"></i>
-            <i class="fab fa-js-square fa-2x mx-2"></i>
-          </li>
-        </ul>
+
+        <div class="bg-light my-4">
+          <ng-container *ngFor="let icon of project.icons">
+            <i [class]="icon.class" [attr.aria-label]="icon.name"></i>
+          </ng-container>
+        </div>
       </div>
     </div>
   </div>

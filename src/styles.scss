@@ -20,6 +20,19 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 $spacer;
 }
 
+// Ejemplos de tamaños de fuente personalizados para los encabezados
+h1 {
+    font-size: 2rem; // Tamaño más grande para h1
+}
+
+h2 {
+    font-size: 1.8rem; // Tamaño más grande para h2
+}
+
+h3 {
+    font-size: 1.6rem; // Tamaño más grande para h3
+}
+
 // Navegación
 nav {
   background-color: darken($primary, 10%);
@@ -41,7 +54,6 @@ header {
 }
 
 // Títulos de sección
-// Modificaciones para .card-section y .projects-section
 .card-section, .projects-section {
   background-color: $dark-blue;  // Fondo oscuro
   
@@ -50,7 +62,6 @@ header {
   }
 }
 
-// Modificaciones para .aboutme-section y .contact
 .aboutme-section, .contact {
   background-color: $white;  // Fondo claro
   
@@ -71,7 +82,6 @@ header {
   text-align: center;
   margin-bottom: $spacer * 2;
 }
-
 
 // Tarjetas
 .card {
@@ -108,10 +118,7 @@ header {
   &:hover {
     color: $burnt-orange;
   }
-
-
 }
-
 
 .projects-section .fa, .fas, .fab {
   color: $black;
@@ -120,8 +127,6 @@ header {
   &:hover {
     color: $burnt-orange;
   }
-
-
 }
 
 // Pie de página
@@ -150,13 +155,11 @@ footer {
 }
 
 // Contacto
-
 .contact {
   background-color: $soft-grey;  // Añadir un fondo claro para contrastar con el tema oscuro.
   padding: $spacer * 3 0;
   border-radius: $card-border-radius;
   box-shadow: $card-shadow;
-
 
   form {
     // Agregamos espacio para evitar que los elementos estén demasiado pegados.
@@ -202,11 +205,6 @@ footer {
     }
   }
 }
-
-
-
-
-
 
 // Media queries
 @media (max-width: 768px) {

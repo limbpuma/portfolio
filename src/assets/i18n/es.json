@@ -1,7 +1,7 @@
 {
   "navbar": {
     "home": "Inicio",
-    "aboutMe": "Acerca de mí",
+    "aboutMe": "Acerca de Mí",
     "projects": "Proyectos",
     "language": "Idioma",
     "english": "Inglés",
@@ -9,38 +9,43 @@
     "german": "Alemán"
   },
   "header": {
-    "title": "Título Aquí",
-    "description": "Descripción o texto introductorio aquí.",
-    "cta": "Haga clic aquí"
-  },
-  "cardsTitle": "Acerca de Mí",
-  "cardsDescription": "Una breve descripción sobre ti.",
+  "title": "¡Hola! Soy Limber Martínez, un entusiasta del desarrollo web.",
+  "description": "Me enfoco en el desarrollo frontend y estoy listo para aplicar mis habilidades en un entorno dinámico. Mi objetivo es crear experiencias web excepcionales y funcionales que cautiven a los usuarios.",
+  "cta": "¡Hablemos!"
+}
+,
+  "cardsTitle": "Habilidades",
+  "cardsDescription": "Mis habilidades destacadas:",
   "cards": [
-    {"title": "Tarjeta 1", "description": "Descripción 1"},
-    {"title": "Tarjeta 2", "description": "Descripción 2"},
-    {"title": "Tarjeta 3", "description": "Descripción 3"},
-    {"title": "Tarjeta 4", "description": "Descripción 4"},
-    {"title": "Tarjeta 5", "description": "Descripción 5"},
-    {"title": "Tarjeta 6", "description": "Descripción 6"}
+    {"title": "Desarrollo Frontend", "description": "HTML, CSS, JavaScript, React, Angular"},
+    {"title": "Desarrollo Backend", "description": "Node.js, Express, Java, Spring Boot"},
+    {"title": "Metodologías Ágiles", "description": "Scrum, Trabajo en equipo"},
+    {"title": "Idiomas", "description": "Español (nativo), Alemán (fluido), Inglés (intermedio)"},
+    {"title": "Educación", "description": "Diploma en Desarrollo Full Stack, Universidad Tecnológica Nacional (UTN)"},
+    {"title": "Atributos Personales", "description": "Perseverancia, Ética laboral, Deseo de aprendizaje continuo"}
   ],
   "aboutMeTitle": "Acerca de Mí",
-  "aboutMeDescription": "Una breve descripción sobre ti.",
+  "aboutMeDescription": "¡Hola! Soy Limber Martínez, un entusiasta del desarrollo web con un enfoque en el frontend.",
   "accordion1": {
-    "title": "Título 1",
-    "content": "Contenido 1"
+    "title": "Mi Viaje en el Desarrollo Web",
+    "content": "Mi interés por la programación comenzó en 2020, cuando emprendí un proyecto de entrega de alimentos a domicilio desde supermercados (doliefero). Esta experiencia me llevó a aprender tecnologías como WordPress, Shopify, y a adentrarme en HTML, CSS y JavaScript. También me familiaricé con la gestión de servidores y la importancia del SEO y el marketing digital para el éxito de un proyecto web."
   },
   "accordion2": {
-    "title": "Título 2",
-    "content": "Contenido 2"
+    "title": "Formación Sólida",
+    "content": "Mi educación en el ILS Institut für Lernsysteme en Hamburgo me proporcionó una base sólida en tecnologías frontend como HTML, CSS y JS, junto con un conocimiento profundo de las regulaciones alemanas de desarrollo web, incluyendo AGBs (Términos y Condiciones Generales), Impressum (Aviso Legal) y Datenschutz (políticas de protección de datos)."
   },
   "accordion3": {
-    "title": "Título 3",
-    "content": "Contenido 3"
+    "title": "Especialización y Aprendizaje",
+    "content": "En la Universidad Tecnológica Nacional (UTN) en Argentina, fortalecí mis habilidades en desarrollo frontend con React y Angular y adquirí nociones básicas en desarrollo backend con NodeJS."
+  },
+  "accordion4": {
+    "title": "Aprendizaje Continuo",
+    "content": "Mi reciente participación en el programa Oracle One Altura Education Alura me brindó una introducción a Java, Spring Boot, Hibernate, JPA y la metodología ágil Scrum."
   },
   "cvPrompt": "Descargar mi Currículum Vitae",
   "cvCta": "Descargar CV",
   "projectsTitle": "Proyectos",
-  "projectsDescription": "Descripción de varios proyectos.",
+  "projectsDescription": "Mis proyectos destacados:",
   "projects": [
     {"title": "Proyecto 1", "description": "Descripción 1"},
     {"title": "Proyecto 2", "description": "Descripción 2"},
@@ -58,13 +63,9 @@
   "contactEmailPlaceholder": "tu.email@example.com",
   "contactMessagePlaceholder": "Tu mensaje aquí",
   "contactCta": "Enviar Mensaje",
-  "contactSend": "enviado! 🚀",
-
-
-   "footerThanks": "Thank you for visiting!",
-  
-  "footerCopyright": "All rights reserved",
+  "contactSend": "¡Mensaje enviado! 🚀",
+  "footerThanks": "¡Gracias por visitar!",
+  "footerCopyright": "Todos los derechos reservados",
   "footerMake": "Hecho con",
   "footerMake2": "usando"
-
 }

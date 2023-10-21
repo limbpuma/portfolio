@@ -9,40 +9,43 @@
     "german": "Deutsch"
   },
   "header": {
-    "title": "Ihr Titel hier",
-    "description": "Beschreibung oder Einführungstext hier.",
-    "cta": "Hier klicken"
-  },
-  "cardsTitle": "Über mich",
-  "cardsDescription": "Eine kurze Information über Sie.",
+  "title": "Hallo! Ich bin Limber Martínez, ein begeisterter Webentwickler.",
+  "description": "Ich bin auf die Frontend-Entwicklung spezialisiert und bereit, meine Fähigkeiten in einer dynamischen Umgebung einzusetzen. Mein Ziel ist es, außergewöhnliche und funktionale Web-Erlebnisse zu schaffen, die Benutzer begeistern.",
+  "cta": "Lass uns sprechen!"
+}
+,
+  "cardsTitle": "Fähigkeiten",
+  "cardsDescription": "Meine hervorgehobenen Fähigkeiten:",
   "cards": [
-    {"title": "Karte 1", "description": "Beschreibung 1"},
-    {"title": "Karte 2", "description": "Beschreibung 2"},
-    {"title": "Karte 3", "description": "Beschreibung 3"},
-    {"title": "Karte 4", "description": "Beschreibung 4"},
-    {"title": "Karte 5", "description": "Beschreibung 5"},
-    {"title": "Karte 6", "description": "Beschreibung 6"}
+    {"title": "Frontend-Entwicklung", "description": "HTML, CSS, JavaScript, React, Angular"},
+    {"title": "Backend-Entwicklung", "description": "Node.js, Express, Java, Spring Boot"},
+    {"title": "Agile Methoden", "description": "Scrum, Teamarbeit"},
+    {"title": "Sprachen", "description": "Spanisch (Muttersprache), Deutsch (Fließend), Englisch (Grundkenntnisse)"},
+    {"title": "Bildung", "description": "Diplom in Full Stack Development, Nationale Technische Universität (UTN)"},
+    {"title": "Persönliche Eigenschaften", "description": "Durchhaltevermögen, Starke Arbeitsethik, Drang zum kontinuierlichen Lernen"}
   ],
   "aboutMeTitle": "Über mich",
-  "aboutMeDescription": "Eine kurze Information über Sie.",
+  "aboutMeDescription": "Hallo! Ich bin Limber Martínez, ein Webenthusiast mit Schwerpunkt auf Frontend-Entwicklung.",
   "accordion1": {
-    "title": "Titel 1",
-    "content": "Inhalt 1"
+    "title": "Mein Weg in der Webentwicklung",
+    "content": "Mein Interesse an der Programmierung begann im Jahr 2020, als ich ein Lebensmittel-Lieferprojekt von Supermärkten (doliefero) startete. Diese Erfahrung führte mich dazu, Technologien wie WordPress, Shopify zu erlernen und in HTML, CSS und JavaScript einzutauchen. Ich wurde auch mit der Serververwaltung und der Bedeutung von SEO und digitalem Marketing für den Erfolg eines Webprojekts vertraut."
   },
   "accordion2": {
-    "title": "Titel 2",
-    "content": "Inhalt 2"
+    "title": "Solide Grundlage",
+    "content": "Meine Ausbildung am ILS Institut für Lernsysteme in Hamburg hat mir eine solide Grundlage in Frontend-Technologien wie HTML, CSS und JS verschafft, sowie ein tiefes Verständnis der deutschen Webentwicklungsregelungen, einschließlich AGBs (Allgemeine Geschäftsbedingungen), Impressum (Impressum) und Datenschutzbestimmungen."
   },
   "accordion3": {
-    "title": "Titel 3",
-    "content": "Inhalt 3"
+    "title": "Spezialisierung und Lernen",
+    "content": "An der Nationalen Technologischen Universität (UTN) in Argentinien habe ich meine Fähigkeiten in der Frontend-Entwicklung mit React und Angular gestärkt und grundlegende Kenntnisse in der Backend-Entwicklung mit NodeJS erworben."
   },
-  "cvPrompt": "Meinen Lebenslauf herunterladen",
+  "accordion4": {
+    "title": "Kontinuierliches Lernen",
+    "content": "Meine kürzliche Teilnahme am Oracle One Altura Education Alura-Programm hat mich mit Java, Spring Boot, Hibernate, JPA und der agilen Scrum-Methodik vertraut gemacht."
+  },
+  "cvPrompt": "Laden Sie meinen Lebenslauf herunter",
   "cvCta": "Lebenslauf herunterladen",
-
-  
   "projectsTitle": "Projekte",
-  "projectsDescription": "Beschreibung verschiedener Projekte.",
+  "projectsDescription": "Meine hervorgehobenen Projekte:",
   "projects": [
     {"title": "Projekt 1", "description": "Beschreibung 1"},
     {"title": "Projekt 2", "description": "Beschreibung 2"},
@@ -51,20 +54,18 @@
     {"title": "Projekt 5", "description": "Beschreibung 5"},
     {"title": "Projekt 6", "description": "Beschreibung 6"}
   ],
-  "contactTitle": "Kontaktieren Sie mich",
+  "contactTitle": "Kontaktiere mich",
   "contactPrompt": "Kommen Sie in Kontakt!",
   "contactName": "Name",
   "contactEmail": "E-Mail",
   "contactMessage": "Nachricht",
   "contactNamePlaceholder": "Ihr Name",
-  "contactEmailPlaceholder": "ihre.email@example.de",
+  "contactEmailPlaceholder": "ihre.email@example.com",
   "contactMessagePlaceholder": "Ihre Nachricht hier",
   "contactCta": "Nachricht senden",
-  "contactSend": "gesendet!",
-
-
-   "footerThanks": "Thank you for visiting!",
-  "footerCopyright": "All rights reserved",
-  "footerMake": "Hecho con",
-  "footerMake2": "usando"
+  "contactSend": "Nachricht gesendet! 🚀",
+  "footerThanks": "Danke für Ihren Besuch!",
+  "footerCopyright": "Alle Rechte vorbehalten",
+  "footerMake": "Hergestellt mit",
+  "footerMake2": "unter Verwendung von"
 }

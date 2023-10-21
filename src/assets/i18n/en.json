@@ -9,39 +9,44 @@
     "german": "German"
   },
   "header": {
-    "title": "Your Title Here",
-    "description": "Description or introductory text here.",
-    "cta": "Click Here"
-  },
-  "cardsTitle": "About Me",
-  "cardsDescription": "A brief about you.",
+  "title": "Hello! I'm Limber Martínez, a web development enthusiast.",
+  "description": "I specialize in frontend development and I'm ready to apply my skills in a dynamic environment. My goal is to create exceptional and functional web experiences that captivate users.",
+  "cta": "Let's talk!"
+}
+,
+  "cardsTitle": "Skills",
+  "cardsDescription": "My highlighted skills:",
   "cards": [
-    {"title": "Card 1", "description": "Description 1"},
-    {"title": "Card 2", "description": "Description 2"},
-    {"title": "Card 3", "description": "Description 3"},
-    {"title": "Card 4", "description": "Description 4"},
-    {"title": "Card 5", "description": "Description 5"},
-    {"title": "Card 6", "description": "Description 6"}
+    {"title": "Frontend Development", "description": "HTML, CSS, JavaScript, React, Angular"},
+    {"title": "Backend Development", "description": "Node.js, Express, Java, Spring Boot"},
+    {"title": "Agile Methodologies", "description": "Scrum, Teamwork"},
+    {"title": "Languages", "description": "Spanish (Native), German (Fluent), English (Intermediate)"},
+    {"title": "Education", "description": "Full Stack Development Diploma, National Technological University (UTN)"},
+    {"title": "Personal Attributes", "description": "Perseverance, Strong Work Ethic, Eagerness for Continuous Learning"}
   ],
   "aboutMeTitle": "About Me",
-  "aboutMeDescription": "A brief about you.",
+  "aboutMeDescription": "Hello! I'm Limber Martínez, a web development enthusiast with a focus on frontend.",
   "accordion1": {
-    "title": "Title 1",
-    "content": "Content 1"
+    "title": "My Journey in Web Development",
+    "content": "My interest in programming began in 2020 when I started a food delivery project from supermarkets (doliefero). This experience led me to learn technologies like WordPress, Shopify, and dive into HTML, CSS, and JavaScript. I also became familiar with server management and the importance of SEO and digital marketing for the success of a web project."
   },
   "accordion2": {
-    "title": "Title 2",
-    "content": "Content 2"
+    "title": "Solid Foundation",
+    "content": "My education at the ILS Institut für Lernsysteme in Hamburg provided me with a solid foundation in frontend technologies like HTML, CSS, and JS, along with a deep understanding of German web development regulations, including AGBs (Terms and Conditions), Impressum (Legal Notice), and Datenschutz (Data Protection Policies)."
   },
   "accordion3": {
-    "title": "Title 3",
-    "content": "Content 3"
+    "title": "Specialization and Learning",
+    "content": "At the National Technological University (UTN) in Argentina, I strengthened my frontend development skills with React and Angular and gained basic knowledge in backend development with NodeJS."
   },
-  "cvPrompt": "Download My Curriculum Vitae",
+  "accordion4": {
+    "title": "Continuous Learning",
+    "content": "My recent participation in the Oracle One Altura Education Alura program introduced me to Java, Spring Boot, Hibernate, JPA, and the agile Scrum methodology."
+  },
+  "cvPrompt": "Download my Curriculum Vitae",
   "cvCta": "Download CV",
   "projectsTitle": "Projects",
-  "projectsDescription": "Description of various projects.",
-  "project": [
+  "projectsDescription": "My highlighted projects:",
+  "projects": [
     {"title": "Project 1", "description": "Description 1"},
     {"title": "Project 2", "description": "Description 2"},
     {"title": "Project 3", "description": "Description 3"},
@@ -58,10 +63,9 @@
   "contactEmailPlaceholder": "your.email@example.com",
   "contactMessagePlaceholder": "Your message here",
   "contactCta": "Send Message",
-
-
-  "footerThanks": "Thank you for visiting!",
+  "contactSend": "Message sent! 🚀",
+  "footerThanks": "Thanks for visiting!",
   "footerCopyright": "All rights reserved",
-  "footerMake": "Hecho con",
-  "footerMake2": "usando"
+  "footerMake": "Made with",
+  "footerMake2": "using"
 }
