@@ -8,32 +8,34 @@
     </p>
   </div>
 
-  <div class="align-items-center row row-cols-1 row-cols-md-3 g-5 mx-auto">
+  <div class="row row-cols-1 row-cols-md-3 g-4 mx-auto">
     <div class="col" *ngFor="let project of combinedProjects">
-      <div class="card">
+      <div class="card custom-card">
         <div class="position-relative">
           <img [src]="project.img" class="card-img-top" alt="..." />
           <a
             [href]="project.githubRepoLink"
-            class="text-decoration-none position-absolute top-25 end-0 m-3"
+            class="text-decoration-none"
             target="_blank"
           >
-            <i class="fab fa-github fa-2x mx-2"></i>
+            <i class="custom-icon fab fa-github fa-2x mx-2"></i>
           </a>
           <a
             [href]="project.liveDemoLink"
-            class="text-decoration-none position-absolute top-50 end-0 m-3"
+            class="text-decoration-none"
             target="_blank"
           >
-            <i class="fab fa-github fa-2x mx-2"></i>
+            <i class="custom-icon fas fa-globe fa-2x mx-2"></i>
           </a>
         </div>
         <div class="card-body">
           <h5 class="card-title">{{ project.title | translate }}</h5>
-          <p class="card-text">{{ project.description | translate }}</p>
+          <p class="card-text">
+            {{ project.description | translate }}
+          </p>
         </div>
 
-        <div class="bg-light my-4">
+        <div class="bg-light mt-1 mb-4">
           <ng-container *ngFor="let icon of project.icons">
             <i [class]="icon.class" [attr.aria-label]="icon.name"></i>
           </ng-container>

@@ -111,14 +111,6 @@ header {
 }
 
 // Iconos
-.card-section i {
-  transition: color 0.3s ease;
-  color: white;
-
-  &:hover {
-    color: $burnt-orange;
-  }
-}
 
 .projects-section .fa, .fas, .fab {
   color: $black;
@@ -126,6 +118,16 @@ header {
 
   &:hover {
     color: $burnt-orange;
+  }
+}
+
+.custom-icon {
+ // Tamaño de los iconos
+  color: $burnt-orange; // Color naranja
+  transition: color 0.3s ease; // Transición de color
+
+  &:hover {
+    color: $white; // Cambio a blanco en hover
   }
 }
 
@@ -208,6 +210,12 @@ footer {
 
 // Media queries
 @media (max-width: 768px) {
+  .contacme-custom{
+    padding: 0;
+  }
+  .card-section {
+    margin-top: 8rem;
+  }
   header, footer {
     padding: $spacer;
   }

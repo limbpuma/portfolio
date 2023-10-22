@@ -10,7 +10,7 @@
   },
   "header": {
   "title": "Hallo! Ich bin Limber Martínez, ein begeisterter Webentwickler.",
-  "description": "Ich bin auf die Frontend-Entwicklung spezialisiert und bereit, meine Fähigkeiten in einer dynamischen Umgebung einzusetzen. Mein Ziel ist es, außergewöhnliche und funktionale Web-Erlebnisse zu schaffen, die Benutzer begeistern.",
+  "description": "Ich habe mich auf die Frontend-Entwicklung spezialisiert und suche aktiv nach Jobmöglichkeiten.",
   "cta": "Lass uns sprechen!"
 }
 ,
@@ -47,13 +47,26 @@
   "projectsTitle": "Projekte",
   "projectsDescription": "Meine hervorgehobenen Projekte:",
   "projects": [
-    {"title": "Projekt 1", "description": "Beschreibung 1"},
-    {"title": "Projekt 2", "description": "Beschreibung 2"},
-    {"title": "Projekt 3", "description": "Beschreibung 3"},
+    {
+  "title": "Reservierungssystem",
+  "description": "Frontend-Projekt in Angular mit einem Backend in Java Spring Boot und MySQL-Datenbank. Entwickelt als Lösung für Reservierungen mit Telefonnummer-Validierung, responsive und mehrsprachig. Bereitgestellt auf Railway. Herausforderungen und Lernerfahrungen auf meinem Weg als Junior-Entwickler."
+},
+    {
+  "title": "Portfolio-Projekt",
+  "description": "Frontend-Portfolio-Projekt entwickelt in React, responsive und mehrsprachig. Hat mir geholfen, mich in React einzuarbeiten, Routing-Systeme zu verstehen, Inhalte aus Daten-Services zu importieren und multilinguale Unterstützung zu erkunden. Eine Reise voller Herausforderungen."
+},
+    {
+  "title": "Alura Oracle Challenge Decrypter",
+  "description": "Ich habe dieses Projekt als Student im Oracle Alura Latam-Programm entwickelt. Es handelt sich um einen Textverschlüssler und Textentschlüssler, der HTML, CSS und JavaScript verwendet, um bestimmte Wörter zu transformieren. Diese Erfahrung hat mir geholfen, meine Fähigkeiten und mein Verständnis für Webprogrammierung und Codierung zu verbessern."
+},
     {"title": "Projekt 4", "description": "Beschreibung 4"},
     {"title": "Projekt 5", "description": "Beschreibung 5"},
     {"title": "Projekt 6", "description": "Beschreibung 6"}
   ],
+
+  "titleThisProject": "Mein Portfolio",
+  "decriptionThisProject": "In diesem Angular- und Bootstrap-Projekt habe ich eine responsive, mehrsprachige Webanwendung entwickelt. Ich habe gelernt, globale Variablen in SCSS zu setzen, dynamische Daten von Data Service zu nutzen und den Nachrichtendienst mit Email.js zu konfigurieren. Ich stand vor Herausforderungen bei Echtzeit-Sprachaktualisierungen in mehreren Komponenten, fand aber effektive Lösungen. Diese Erfahrung hat mich als Junior-Entwickler viel gelehrt.",
+
   "contactTitle": "Kontaktiere mich",
   "contactPrompt": "Kommen Sie in Kontakt!",
   "contactName": "Name",

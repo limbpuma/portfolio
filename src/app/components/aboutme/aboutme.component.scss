@@ -46,6 +46,12 @@
 }
 
 @media (max-width: 767px) {
+  .aboutme-section{
+    padding: 0;
+  }
+  .title-component{
+    margin-top: 2rem;
+  }
   .img-container {
     margin-bottom: $spacer;
   }

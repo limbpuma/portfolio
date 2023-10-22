@@ -119,3 +119,19 @@ export const scrollPopUp = trigger('scrollPopUp', [
     animate('0.4s 0.1s cubic-bezier(0.680, -0.550, 0.265, 1.550)', style({ transform: 'scale(1) translateY(0)', opacity: 1 }))
   ])
 ]);
+
+//Esfecto escritura
+
+export const typeWriterAnimation = trigger('typeWriterAnimation', [
+  state('start', style({ width: '0', opacity: 0 })),
+  state('end', style({ width: '100%', opacity: 1 })),
+  transition('start <=> end', [
+    animate('1.5s ease-in-out', keyframes([
+      style({ width: '0', opacity: 0, offset: 0 }),
+      style({ width: '10%', opacity: 0.2, offset: 0.2 }),
+      style({ width: '30%', opacity: 0.6, offset: 0.6 }),
+      style({ width: '60%', opacity: 0.8, offset: 0.8 }),
+      style({ width: '100%', opacity: 1, offset: 1 })
+    ]))
+  ])
+]);

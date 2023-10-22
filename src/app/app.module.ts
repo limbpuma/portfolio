@@ -16,6 +16,7 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MiportfolioComponent } from './components/miportfolio/miportfolio.component';
 
 
 
@@ -30,6 +31,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactComponent,
     FooterComponent,
     MycvComponent,
+    MiportfolioComponent,
 
   ],
   imports: [

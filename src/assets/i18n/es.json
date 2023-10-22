@@ -9,8 +9,8 @@
     "german": "Alemán"
   },
   "header": {
-  "title": "¡Hola! Soy Limber Martínez, un entusiasta del desarrollo web.",
-  "description": "Me enfoco en el desarrollo frontend y estoy listo para aplicar mis habilidades en un entorno dinámico. Mi objetivo es crear experiencias web excepcionales y funcionales que cautiven a los usuarios.",
+  "title": "¡Hola! Soy Limber Martínez, desarrollador web entusiasta.",
+  "description": "Me enfoco en el desarrollo frontend y busco oportunidades laborales.",
   "cta": "¡Hablemos!"
 }
 ,
@@ -47,13 +47,27 @@
   "projectsTitle": "Proyectos",
   "projectsDescription": "Mis proyectos destacados:",
   "projects": [
-    {"title": "Proyecto 1", "description": "Descripción 1"},
-    {"title": "Proyecto 2", "description": "Descripción 2"},
-    {"title": "Proyecto 3", "description": "Descripción 3"},
+    {
+  "title": "Sistema de Reservas",
+  "description": "Proyecto frontend Angular con backend Java Spring Boot y base de datos MySQL. Desarrollado como solución para reservas con validación de números telefónicos, responsive y multiidioma. Despliegue en Railway. Desafíos y aprendizajes en mi camino como desarrollador junior."
+},
+    {
+  "title": "Proyecto Portfolio",
+  "description": "Proyecto de portfolio frontend desarrollado en React, responsive y multilingüe. Me ayudó a adentrarme en React, aprender sobre sistemas de enrutamiento, la importación de contenido desde servicios de datos y explorar el soporte multilingüe. Un camino lleno de desafíos."
+},
+    {
+  "title": "Encriptador y Desencriptador de Texto",
+  "description": "Desarrollé este proyecto como estudiante en el programa Oracle Alura Latam. Es un encriptador y desencriptador de texto que utiliza HTML, CSS y JavaScript para transformar palabras específicas. Esta experiencia me ha ayudado a mejorar mis habilidades y comprensión en programación web y diseño de código."
+},
     {"title": "Proyecto 4", "description": "Descripción 4"},
     {"title": "Proyecto 5", "description": "Descripción 5"},
     {"title": "Proyecto 6", "description": "Descripción 6"}
   ],
+
+  "titleThisProject": "Mi Portfolio",
+  "decriptionThisProject": "En este proyecto de Angular y Bootstrap, he desarrollado una aplicación web receptiva y multilingüe. Aprendí a establecer variables globales en SCSS, consumir datos dinámicos de Data Service y configurar el servicio de mensajería con Email.js. Enfrenté desafíos para actualizar el idioma en tiempo real en múltiples componentes, pero encontré soluciones efectivas. Esta experiencia me ha enseñado mucho como desarrollador junior.",
+
+
   "contactTitle": "Contáctame",
   "contactPrompt": "¡Ponte en contacto!",
   "contactName": "Nombre",

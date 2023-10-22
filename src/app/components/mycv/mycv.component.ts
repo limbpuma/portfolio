@@ -12,9 +12,9 @@ import { ElementRef, HostListener } from '@angular/core';
 export class MycvComponent {
   // Define las rutas del archivo CV para cada idioma
   cvPaths: { [key: string]: string } = {
-    en: 'https://drive.google.com/file/d/1-zFTNo7oRMLv0Y5oBhigak_GER2oTUM2/view?usp=sharing',
-    es: 'https://drive.google.com/file/d/1CtPVYOB9Zqo84E7NFfQhQyd9ussuA_87/view?usp=sharing',
-    de: 'https://drive.google.com/file/d/1pLKyo3pRzGjpC9KRnAKoTtpEKOfans9A/view?usp=sharing'
+    en: 'https://drive.google.com/file/d/1AH1rIvscmRsW1F9HcGBcxt4ng4k6V5GN/view?usp=share_link',
+    es: 'https://drive.google.com/file/d/1-h6hu1Xg8Oea66nzTJu6qKC4bvhzpHxB/view?usp=share_link',
+    de: 'https://drive.google.com/file/d/1mCw5ExPTYfobGtD_UwXru9U3xGUul9UQ/view?usp=share_link'
   };
 
   animationState = 'visible';
