@@ -11,7 +11,7 @@ export class StaticDataServiceService {
 }
 export const PROJECTS_DATA = [
   {
-    img:'../../assets/img/boooking-app.png',
+    img:'../../assets/img/boooking-app.webp',
     githubRepoLink: 'https://github.com/limbpuma/BookingAppFrontend',
     liveDemoLink: 'https://booking-app.up.railway.app/home',
     "icons": [
@@ -23,7 +23,7 @@ export const PROJECTS_DATA = [
   },
   
   {
-        img:'../../assets/img/landing-react.jpg',
+        img:'../../assets/img/landing-react.webp',
     githubRepoLink: 'https://github.com/limbpuma/web',
     liveDemoLink: 'https://limbpuma.github.io/web/',
     icons: [
@@ -35,7 +35,7 @@ export const PROJECTS_DATA = [
   },
  
    {
-        img:'../../assets/img/desencriptador.jpg',
+        img:'../../assets/img/desencriptador.webp',
     githubRepoLink: 'https://github.com/limbpuma/desencriptador-desafio-alura-oracle',
     liveDemoLink: 'https://limbpuma.github.io/desencriptador-desafio-alura-oracle/',
     icons: [
