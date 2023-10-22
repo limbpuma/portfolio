@@ -4,7 +4,7 @@ import {
   style,
   animate,
   state,
-  keyframes
+  keyframes, query, animateChild
 } from '@angular/animations';
 
 // Scroll Fade In
@@ -18,7 +18,15 @@ export const scrollFadeIn = trigger('scrollFadeIn', [
 export const scrollFadeInOut = trigger('scrollFadeInOut', [
   state('hidden', style({ opacity: 0.5 })),
   state('visible', style({ opacity: 1 })),
-  transition('hidden <=> visible', animate('900ms ease-in-out'))
+  transition('hidden <=> visible', animate('900ms ease-in-out')),
+  // Agrega una condición para evitar la animación en dispositivos móviles
+  transition(':enter', [
+    query('@scrollFadeInOut', [
+      animateChild(),
+      // Condicional: No aplica animación en dispositivos móviles
+      animate('0s', style({ opacity: 1 })),
+    ]),
+  ]),
 ]);
 
 // Scroll Slide In Left
