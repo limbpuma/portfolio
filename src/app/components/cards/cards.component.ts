@@ -6,6 +6,8 @@ import { ElementRef, HostListener } from '@angular/core';
 import { scrollFadeInOut } from '../../animations/animations';
 import { CARD_ICONS } from '../../Services/static-data-service.service'; // Importa los iconos
 
+
+
 @Component({
   selector: 'app-cards',
   templateUrl: './cards.component.html',
@@ -39,6 +41,11 @@ export class CardsComponent implements OnInit {
         this.dataService.updateCards(this.cards);
       });
     });
+
+    // Verifica si el dispositivo es un móvil y deshabilita la animación si es así
+    if (window.innerWidth <= 768) {
+      this.animationState = 'hidden';
+    }
   }
 
   @HostListener('window:scroll')
