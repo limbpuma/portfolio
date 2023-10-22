@@ -2,6 +2,8 @@ import { Component, } from '@angular/core';
 import * as emailjs from 'emailjs-com';
 import { PERSONAL_LINKS } from 'src/app/Services/static-data-service.service';
 import { environment } from 'src/environments/environment';
+import { HttpClient } from '@angular/common/http';
+
 
 const EMAILJS_USER_ID = environment.emailjsUserId;
 
@@ -52,7 +54,20 @@ onSubmit(data: any) {
    githubLink = PERSONAL_LINKS.github;
   linkedinLink = PERSONAL_LINKS.linkedin;
 
+
+  EMAILJS_USER_ID: string = '';
+
+  constructor(private http: HttpClient) { }
+
   ngOnInit(): void {
     // aquí puedes colocar lógica de inicialización si es necesario
   }
+
+  getConfig() {
+    this.http.get('/src/assets/config.json').subscribe((config: any) => {
+      this.EMAILJS_USER_ID = config.emailjsUserId;
+      emailjs.init(this.EMAILJS_USER_ID);
+    });
+  }
+
 }

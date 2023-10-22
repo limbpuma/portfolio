@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  emailjsUserId: 'EMAILJS_USER_ID'
+  emailjsUserId: 'W2uVMjlR6dxvYWNzU'
 };
