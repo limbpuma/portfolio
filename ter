@@ -1,0 +1,156 @@
+[33mcommit ab72a55b4dea287854bfa4a6ac31838ed7ee3712[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Thu Nov 2 23:08:54 2023 +0100
+
+    implement policy privacy
+
+[33mcommit 1d4c224c34793f88bcea398965d411554f26a4e1[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 21:08:22 2023 +0200
+
+    changed animations for mobile cards desactivate
+
+[33mcommit 9dfcacbb89832454e13324242f9c9b27348bf80a[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 20:17:38 2023 +0200
+
+    Agregado el archivo main.ts
+
+[33mcommit 50a5b7feb8ba95ea36efc8269eb767ad2d09807a[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 19:58:19 2023 +0200
+
+    cambios en card img responsibe margin
+
+[33mcommit defffcf0446ccff1f23933ce789ee2e033d91941[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 19:37:27 2023 +0200
+
+    cambios en contacto2
+
+[33mcommit 7142d2754ab6fd0b680af9657d290626ab1b636d[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 18:48:43 2023 +0200
+
+    Corregida la ruta de server.js
+
+[33mcommit c14c0334ad1af36b13dd245c63560923923b006c[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 18:40:26 2023 +0200
+
+    deploy fix json
+
+[33mcommit 26ea21b1b78e72ea4c9ed3f56093c338020b3b75[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 18:27:51 2023 +0200
+
+    instalando node para deploy
+
+[33mcommit 133a83e2b895583800d0a1cbaae46cd7eaffdff2[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 18:08:45 2023 +0200
+
+    preparacion para deploy
+
+[33mcommit 1ae94885bb4bc030a98f40de45207afccf7e9f12[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 17:59:20 2023 +0200
+
+    deployment preparar
+
+[33mcommit 065d9f8f43ebd023af73ee6f418d0a65f087a88c[m
+Merge: 71004ee 6db22b8
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 17:54:24 2023 +0200
+
+    Merge branch 'master' of https://github.com/limbpuma/portfolio
+
+[33mcommit 71004eedd4c0740a943446861136cfc13b3a0256[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 17:53:18 2023 +0200
+
+    Dependencies solved
+
+[33mcommit 6db22b8d7de1e6df0dca0c09186ae4bc8df3e7ae[m
+Merge: 6401035 224ee05
+Author: Limber Martinez <60944076+limbpuma@users.noreply.github.com>
+Date:   Sun Oct 22 17:39:43 2023 +0200
+
+    Merge pull request #2 from limbpuma/limbpuma-patch-1
+    
+    Delete src/environments directory
+
+[33mcommit 224ee05e15eb8f86f1f0145cbcae3571f7c00f09[m[33m ([m[1;31morigin/limbpuma-patch-1[m[33m)[m
+Author: Limber Martinez <60944076+limbpuma@users.noreply.github.com>
+Date:   Sun Oct 22 17:37:53 2023 +0200
+
+    Delete src/environments directory
+
+[33mcommit 64010359fcd6c8de26ad7a032b0fad5c73c4e750[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 17:36:39 2023 +0200
+
+    hidden keys
+
+[33mcommit 300f9ec08acf2fc39faf462aa736aafb7780c6c3[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 16:45:17 2023 +0200
+
+    env mail hidden
+
+[33mcommit 72bf00b2ab566caa1ab4a9ce524b269bd6b8768a[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sun Oct 22 16:11:30 2023 +0200
+
+    Mis cambios finales en acabados-web
+
+[33mcommit 2c168cac35d457931c9fe0b51f28a98040a424a1[m[33m ([m[1;32mestilosreparar[m[33m)[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Sat Oct 21 21:50:01 2023 +0200
+
+    Realizados cambios en estilosreparar
+
+[33mcommit fd16ba36f6d8ce4ac31af927c9b6778ead244c4c[m[33m ([m[1;31morigin/estilosreparar[m[33m)[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Fri Oct 20 23:44:34 2023 +0200
+
+    agrege animacion y otros
+
+[33mcommit 7a44cf2000586fd732c1fd81ce20ec7b12a6182a[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Fri Oct 20 22:30:38 2023 +0200
+
+    Mensaje de confirmación relevante
+
+[33mcommit 08a56a1e9d2b2019c20a4d3313c33263630a445e[m[33m ([m[1;32mfeature/email-service[m[33m)[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Fri Oct 20 19:11:02 2023 +0200
+
+    Añadido servicio de email y otros cambios
+
+[33mcommit 8654e251efffd0d9bfa495232f21180cbc174edd[m
+Merge: 95d9a42 aaf311e
+Author: Limber Martinez <60944076+limbpuma@users.noreply.github.com>
+Date:   Thu Oct 19 22:11:29 2023 +0200
+
+    Merge pull request #1 from limbpuma/feature/translations
+    
+    Fusionar cambios de master a feature/translations
+
+[33mcommit aaf311e99e8e00ceca0f1ecc44917fd57b0b25ec[m[33m ([m[1;31morigin/feature/translations[m[33m, [m[1;32mfeature/translations[m[33m)[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Thu Oct 19 22:08:14 2023 +0200
+
+    Fusionar cambios de master a feature/translations
+
+[33mcommit 95d9a42cca4d8deff9b845b6d036b55035ddd083[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Wed Oct 18 23:29:38 2023 +0200
+
+    estilos terminados
+
+[33mcommit cb840909019246206aceb920f051f94a2fb8a7d0[m
+Author: Limber <limbpuma_de@hotmail.com>
+Date:   Tue Oct 17 13:09:25 2023 +0200
+
+    initial commit

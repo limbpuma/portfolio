@@ -4,23 +4,24 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-10 text-start">
-        Este sitio web utiliza cookies para asegurarte la mejor experiencia en
-        nuestra web.
+        {{ "COOKIE_MESSAGE" | translate }}
         <!-- Enlace para abrir el modal -->
-        <a routerLink="/cookies">Leer más</a>
-
+        <a
+          routerLink="/cookies"
+          [innerText]="'COOKIE_LINK_TEXT' | translate"
+        ></a>
         <ng-template #privacyPolicyModal
           ><app-cookies-page></app-cookies-page>
         </ng-template>
       </div>
       <div class="col-12 col-md-2 text-end">
         <button class="btn btn-primary my-1" (click)="giveConsent()">
-          Entendido
+          {{ "COOKIE_DISMISS" | translate }}
         </button>
         <button class="btn btn-secondary my-1" (click)="denyConsent()">
-          Rechazar
+          {{ "COOKIE_DENY" | translate }}
         </button>
       </div>
     </div>
-  </div>
+  </div>console.log('');
 </div>

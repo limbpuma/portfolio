@@ -8,25 +8,36 @@
     </p>
   </div>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 mx-auto">
-    <div class="col" *ngFor="let project of combinedProjects">
-      <div class="card custom-card">
+  <div class="row g-4 mx-auto">
+    <div
+      class="col-12 col-md-6 col-lg-4"
+      *ngFor="let project of combinedProjects"
+    >
+      <div class="card custom-card h-100">
         <div class="position-relative">
-          <img [src]="project.img" class="card-img-top" alt="card-image" />
-          <a
-            [href]="project.githubRepoLink"
-            class="text-decoration-none"
-            target="_blank"
+          <img
+            [src]="project.img"
+            class="card-img-top img-fluid"
+            alt="card-image"
+          />
+          <div
+            class="d-flex justify-content-around position-absolute bottom-0 w-100 p-2"
           >
-            <i class="custom-icon fab fa-github fa-2x mx-2"></i>
-          </a>
-          <a
-            [href]="project.liveDemoLink"
-            class="text-decoration-none"
-            target="_blank"
-          >
-            <i class="custom-icon fas fa-globe fa-2x mx-2"></i>
-          </a>
+            <a
+              [href]="project.githubRepoLink"
+              class="text-decoration-none"
+              target="_blank"
+            >
+              <i class="custom-icon fab fa-github fa-2x mx-2"></i>
+            </a>
+            <a
+              [href]="project.liveDemoLink"
+              class="text-decoration-none"
+              target="_blank"
+            >
+              <i class="custom-icon fas fa-globe fa-2x mx-2"></i>
+            </a>
+          </div>
         </div>
         <div class="card-body">
           <h5 class="card-title">{{ project.title | translate }}</h5>
@@ -35,7 +46,7 @@
           </p>
         </div>
 
-        <div class="bg-light mt-1 mb-4">
+        <div class="bg-light mt-1 mb-4 text-center">
           <ng-container *ngFor="let icon of project.icons">
             <i [class]="icon.class" [attr.aria-label]="icon.name"></i>
           </ng-container>

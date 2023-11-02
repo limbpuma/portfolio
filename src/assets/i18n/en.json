@@ -88,7 +88,7 @@
   "contactMessagePlaceholder": "Your message here",
   "contactCta": "Send Message",
   "contactSend": "Message sent! 🚀",
-  "footerThanks": "Thanks for dropping by! If you need a dev, I'm here! Even a virtual coffee is accepted!",
+  "footerThanks": "Thanks for visiting!",
   "footerCopyright": "All rights reserved",
   "footerMake": "Made with",
   "footerMake2": "using",
@@ -96,5 +96,5 @@
 
   "IMPRINT_LINK": "Imprint",
   "TERMS_LINK": "Terms",
-  "PRIVACY_LINK": "Privacy"
+  "PRIVACY_LINK": "Priva"
 }
