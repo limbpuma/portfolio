@@ -1,17 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutmeComponent } from './components/aboutme/aboutme.component';
-import { ContactComponent } from './components/contact/contact.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { CookiesPageComponent } from './components/cookies-page/cookies-page.component';
+import { ImpressumComponent } from './components/impressum/impressum.component';
+import { AgbsComponent } from './components/agbs/agbs.component';
 
-import { ProjectsComponent } from './components/projects/projects.component';
- // Importa tus componentes
+
 
 const routes: Routes = [
-  { path: '', redirectTo: '', pathMatch: 'full' }, // Redirige a la página principal
-
-  { path: 'aboutMe', component: AboutmeComponent },
-  { path: 'projects', component: ProjectsComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: '', component: HomePageComponent }, 
+    { path: 'cookies', component: CookiesPageComponent },
+    { path: 'impressum', component: ImpressumComponent },
+    { path: 'agbs', component: AgbsComponent },
+    
 ];
 
 @NgModule({

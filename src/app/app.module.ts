@@ -17,7 +17,13 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MiportfolioComponent } from './components/miportfolio/miportfolio.component';
-
+import { CookieService } from './Services/cookie.service';
+import { CookieBannerComponent } from './components/cookie-banner/cookie-banner.component';
+import { CookiesPageComponent } from './components/cookies-page/cookies-page.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import { HomePageComponent } from './home-page/home-page.component';
+import { ImpressumComponent } from './components/impressum/impressum.component';
+import { AgbsComponent } from './components/agbs/agbs.component';  // Importa ModalModule de ngx-bootstrap
 
 
 @NgModule({
@@ -32,15 +38,22 @@ import { MiportfolioComponent } from './components/miportfolio/miportfolio.compo
     FooterComponent,
     MycvComponent,
     MiportfolioComponent,
+    CookieBannerComponent,
+    CookiesPageComponent,
+    HomePageComponent,
+    ImpressumComponent,
+    AgbsComponent,
 
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
+    ModalModule.forRoot(), 
     BrowserAnimationsModule,
     TranslateModule.forRoot({
       loader: {
@@ -50,7 +63,7 @@ import { MiportfolioComponent } from './components/miportfolio/miportfolio.compo
       }
     })
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent],
 
 })

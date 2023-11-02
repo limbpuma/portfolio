@@ -16,18 +16,16 @@ export const scrollFadeIn = trigger('scrollFadeIn', [
 
 // Scroll Fade In Out
 export const scrollFadeInOut = trigger('scrollFadeInOut', [
-  state('hidden', style({ opacity: 0.5 })),
-  state('visible', style({ opacity: 1 })),
-  transition('hidden <=> visible', animate('900ms ease-in-out')),
-  // Agrega una condición para evitar la animación en dispositivos móviles
+  // ... other states and transitions
   transition(':enter', [
     query('@scrollFadeInOut', [
       animateChild(),
       // Condicional: No aplica animación en dispositivos móviles
       animate('0s', style({ opacity: 1 })),
-    ]),
+    ], { optional: true }),  // <-- Añadido { optional: true }
   ]),
 ]);
+
 
 // Scroll Slide In Left
 export const scrollSlideInLeft = trigger('scrollSlideInLeft', [

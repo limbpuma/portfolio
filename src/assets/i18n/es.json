@@ -67,6 +67,12 @@
   "titleThisProject": "Mi Portfolio",
   "decriptionThisProject": "En este proyecto de Angular y Bootstrap, he desarrollado una aplicación web receptiva y multilingüe. Aprendí a establecer variables globales en SCSS, consumir datos dinámicos de Data Service y configurar el servicio de mensajería con Email.js. Enfrenté desafíos para actualizar el idioma en tiempo real en múltiples componentes, pero encontré soluciones efectivas. Esta experiencia me ha enseñado mucho como desarrollador junior.",
 
+  "COOKIE_MESSAGE": "Utilizamos cookies y otras tecnologías de seguimiento para mejorar tu experiencia de navegación en nuestro sitio web, mostrarte contenido personalizado y anuncios dirigidos, analizar el tráfico de nuestro sitio web y entender de dónde vienen nuestros visitantes.",
+  "COOKIE_DISMISS": "Entendido",
+  "COOKIE_DENY": "Rechazar",
+  "COOKIE_LINK_TEXT": "Saber más",
+  "COOKIE_POLICY": "Política de Cookies",
+
 
   "contactTitle": "Contáctame",
   "contactPrompt": "¡Ponte en contacto!",
@@ -78,8 +84,13 @@
   "contactMessagePlaceholder": "Tu mensaje aquí",
   "contactCta": "Enviar Mensaje",
   "contactSend": "¡Mensaje enviado! 🚀",
-  "footerThanks": "¡Gracias por visitar!",
+  "footerThanks": "¡Gracias por pasarte! Si necesitas un dev, ¡aquí estoy! ¡Hasta un café virtual acepto!",
   "footerCopyright": "Todos los derechos reservados",
   "footerMake": "Hecho con",
-  "footerMake2": "usando"
+  "footerMake2": "usando",
+
+
+  "IMPRINT_LINK": "Aviso Legal",
+  "TERMS_LINK": "Términos y Condiciones",
+  "PRIVACY_LINK": "Política de Privacidad"
 }

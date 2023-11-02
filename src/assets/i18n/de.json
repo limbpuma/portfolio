@@ -67,6 +67,13 @@
   "titleThisProject": "Mein Portfolio",
   "decriptionThisProject": "In diesem Angular- und Bootstrap-Projekt habe ich eine responsive, mehrsprachige Webanwendung entwickelt. Ich habe gelernt, globale Variablen in SCSS zu setzen, dynamische Daten von Data Service zu nutzen und den Nachrichtendienst mit Email.js zu konfigurieren. Ich stand vor Herausforderungen bei Echtzeit-Sprachaktualisierungen in mehreren Komponenten, fand aber effektive Lösungen. Diese Erfahrung hat mich als Junior-Entwickler viel gelehrt.",
 
+  "COOKIE_MESSAGE": "Wir verwenden Cookies und andere Tracking-Technologien, um Ihre Browser-Erfahrung auf unserer Website zu verbessern, Ihnen personalisierte Inhalte und gezielte Werbung zu zeigen, unseren Website-Verkehr zu analysieren und zu verstehen, woher unsere Besucher kommen.",
+  "COOKIE_DISMISS": "Verstanden",
+  "COOKIE_DENY": "Ablehnen",
+  "COOKIE_LINK_TEXT": "Mehr erfahren",
+  "COOKIE_LINK_HREF": "https://link-zu-ihrer-cookie-richtlinie.com",
+  "COOKIE_POLICY": "Cookie-Richtlinie",
+
   "contactTitle": "Kontaktiere mich",
   "contactPrompt": "Kommen Sie in Kontakt!",
   "contactName": "Name",
@@ -77,8 +84,13 @@
   "contactMessagePlaceholder": "Ihre Nachricht hier",
   "contactCta": "Nachricht senden",
   "contactSend": "Nachricht gesendet! 🚀",
-  "footerThanks": "Danke für Ihren Besuch!",
+  "footerThanks": "Danke für deinen Besuch! Wenn du einen Entwickler brauchst, hier bin ich! Selbst ein virtueller Kaffee wird akzeptiert!",
   "footerCopyright": "Alle Rechte vorbehalten",
   "footerMake": "Hergestellt mit",
-  "footerMake2": "unter Verwendung von"
+  "footerMake2": "unter Verwendung von",
+
+
+  "IMPRINT_LINK": "Impressum",
+  "TERMS_LINK": "AGB",
+  "PRIVACY_LINK": "Datenschutz"
 }

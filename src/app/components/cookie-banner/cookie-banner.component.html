@@ -1,0 +1,26 @@
+<!-- cookie-banner.component.html -->
+
+<div class="cookie-banner" *ngIf="!consentGiven">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-10 text-start">
+        Este sitio web utiliza cookies para asegurarte la mejor experiencia en
+        nuestra web.
+        <!-- Enlace para abrir el modal -->
+        <a routerLink="/cookies">Leer más</a>
+
+        <ng-template #privacyPolicyModal
+          ><app-cookies-page></app-cookies-page>
+        </ng-template>
+      </div>
+      <div class="col-12 col-md-2 text-end">
+        <button class="btn btn-primary my-1" (click)="giveConsent()">
+          Entendido
+        </button>
+        <button class="btn btn-secondary my-1" (click)="denyConsent()">
+          Rechazar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
