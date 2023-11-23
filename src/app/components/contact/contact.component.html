@@ -7,7 +7,11 @@
   <div class="container-fluid g-5 contacme-custom">
     <!-- Formulario -->
     <form
-      (ngSubmit)="onSubmit({ Name: name, EmailAddress: email, Body: body })"
+      (ngSubmit)="
+        myForm.valid &&
+          onSubmit({ Name: name, EmailAddress: email, Body: body })
+      "
+      #myForm="ngForm"
     >
       <div class="row">
         <!-- Campo Nombre -->
@@ -23,6 +27,9 @@
               class="form-control"
               id="nameInput"
               placeholder="contact name"
+              [(ngModel)]="name"
+              name="name"
+              required
             />
             <!-- Íconos de Redes Sociales junto al campo Nombre -->
             <span class="input-group-text">
@@ -86,6 +93,10 @@
           translate="contactCta"
         ></button>
       </div>
+      <div *ngIf="showError" class="error-message">
+        Por favor, completa todos los campos correctamente.
+      </div>
+
       <div *ngIf="emailSent" class="d-flex justify-content-center">
         <div class="col-12 col-md-8 col-lg-6">
           <div
